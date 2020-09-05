@@ -3,22 +3,6 @@
 #include "muse.h"
 #endif
 #include "eeprom.h"
-#include "keymap_german.h"
-#include "keymap_nordic.h"
-#include "keymap_french.h"
-#include "keymap_spanish.h"
-#include "keymap_hungarian.h"
-#include "keymap_swedish.h"
-#include "keymap_br_abnt2.h"
-#include "keymap_canadian_multilingual.h"
-#include "keymap_german_ch.h"
-#include "keymap_jp.h"
-#include "keymap_bepo.h"
-#include "keymap_italian.h"
-#include "keymap_slovenian.h"
-#include "keymap_danish.h"
-#include "keymap_norwegian.h"
-#include "keymap_portuguese.h"
 
 #define KC_MAC_UNDO LGUI(KC_Z)
 #define KC_MAC_CUT LGUI(KC_X)
@@ -122,8 +106,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [_ADJUST] = LAYOUT_planck_grid(
     KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,
-    KC_DELETE,       KC_TRANSPARENT,  AU_ON,           AU_OFF,          AU_TOG,          KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  RESET,
-    KC_TRANSPARENT,  KC_TRANSPARENT,  MU_ON,           MU_OFF,          MU_TOG,          KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,
+    KC_DELETE,       KC_TRANSPARENT,  AU_ON,           AU_OFF,          AU_TOG,          KC_TRANSPARENT,  KC_TRANSPARENT,  RGB_TOG,  RGB_VAI,  RGB_VAD,  KC_TRANSPARENT,  RESET,
+    KC_TRANSPARENT,  KC_TRANSPARENT,  MU_ON,           MU_OFF,          MU_TOG,          KC_TRANSPARENT,  KC_TRANSPARENT,  RGB_MOD,  RGB_HUI,  RGB_HUD,  KC_TRANSPARENT,  KC_TRANSPARENT,
     KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_NO,           KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT,  KC_TRANSPARENT
 ),
 
