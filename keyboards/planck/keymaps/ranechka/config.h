@@ -1,5 +1,5 @@
 #pragma once
-#define AUDIO_CLICKY
+//#define AUDIO_CLICKY
 
 #ifdef AUDIO_ENABLE
     #define STARTUP_SONG SONG(PLANCK_SOUND)
